@@ -88,6 +88,7 @@ void PrintArr(const Arr &arr) {
     cout << endl;
 }
 
+// Замена элемента
 void ChangeArr(Arr &arr, int idx, const string& val) {
     if (idx < 0 || idx >= arr.size) {
         cout << "Ошибка: некоректный индекс." << endl;
