@@ -20,6 +20,13 @@ struct Queue
     Node* rear; // Указатель на конец очереди 
 };
 
+void CreateQueue(Queue &q);
+bool isEmpty(const Queue &q);
+void AddToQueue(Queue &q, string val);
+string Pop(Queue &q);
+string Peek(const Queue &q);
+void ClearQ(Queue &q);
+void PrintQ(const Queue &q);
 
 
 #endif
